@@ -224,6 +224,9 @@
           <p>
             ANGEL POTION 3 IN 1 LEAVE IN HAIR CREAM 100ML | MY.ORGANICS
           </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ex?
+          </p>
           <p>$19.00</p>
         </div>
       </a>
