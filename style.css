@@ -1,0 +1,445 @@
+* {
+  font-family: sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+.image {
+  background: url("images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 350px;
+  left: 0;
+  bottom: 0;
+  border-radius: 15px 50px;
+}
+.image2 {
+  background: url("images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  right: 0;
+  top: 0;
+  border-radius: 50px 15px;
+}
+
+.moteris-img {
+  background: url("images/moteris1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  right: 0;
+  top: 0;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px 50px;
+}
+
+.moteris-img-1 {
+  background: url("images/moteris2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  right: 0;
+  top: 0;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px 15px;
+}
+
+.moteris-img-2 {
+  background: url("images/moteris3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  right: 0;
+  top: 0;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px 50px;
+}
+
+.moteris-img-3 {
+  background: url("images/moteris4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  right: 0;
+  top: 0;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px 15px;
+}
+
+.footer-logo {
+  background: url("images/footerlogo.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 110px;
+  right: 0;
+  top: 0;
+}
+.image-wrapper .image,
+.image-wrapper .image2 {
+  position: absolute;
+}
+
+.divider {
+  border-top: 1px;
+  background-color: #000;
+  width: 15%;
+  height: 1px;
+  margin: auto;
+}
+
+.cruelty {
+  max-width: 920px;
+  margin: auto;
+}
+@media (min-width: 576px) {
+  .image-wrapper .image,
+  .image-wrapper .image2 {
+    position: absolute;
+    width: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-wrapper .image,
+  .image-wrapper .image2 {
+    position: unset;
+  }
+}
+
+a.link-light.text-decoration-none:hover {
+  font-weight: bold;
+}
+
+.sustainable-products {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+a.btn.btn-secondary.btn-lg:link,
+a.btn.btn-secondary.btn-lg:visited {
+  background-color: transparent;
+  color: black;
+}
+
+a.btn.btn-secondary.btn-lg:hover,
+a.btn.btn-secondary.btn-lg:active {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  /* transform: scale(1.1); */
+}
+
+a.index-products:link,
+a.index-products:visited {
+  text-decoration: none;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Moteris2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 149px);
+}
+
+.logo {
+  background: url("images/logo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 83px;
+}
+
+.hero-image .hero-text {
+  color: #fff;
+  text-align: center;
+}
+
+.hero-image .hero-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.hero-image .hero-text p {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+.hero-image .hero-btn {
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.hero-image .hero-btn:link {
+  background: none;
+}
+
+.hero-image .hero-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.card {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 560px;
+  width: 100%;
+  border-radius: 0px;
+  border: none;
+  justify-content: center;
+}
+
+.container-fluid.bg-dark.gap-3.py-5 .form-control {
+  background-color: #fff0;
+  border-left: 1px solid #fff0;
+  border-top: 1px solid #fff0;
+  border-right: 1px solid #fff0;
+  border-radius: 0;
+  color: #fff;
+}
+
+.container-fluid.bg-dark.gap-3.py-5 .form-control:focus {
+  background-color: #fff0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  box-shadow: none;
+}
+
+li.nav-item {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.moteris-container {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 18px 25px -6px rgba(136, 136, 136, 0.5);
+  border-radius: 50px 15px;
+}
+
+.moteris-container1 {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 18px 25px -6px rgba(136, 136, 136, 0.5);
+  border-radius: 15px 50px;
+}
+
+.link-moteris-container {
+  margin-bottom: 8px;
+}
+
+.btn.btn-secondary.btn-lg.active {
+  outline-style: outset;
+  outline-color: rgba(128, 128, 128, 0.13);
+  outline-width: 7px;
+  border: none;
+}
+
+.col-sm-3.products {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 18px 25px -6px rgba(136, 136, 136, 0.5);
+}
+
+.card-img-top {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 18px 25px -10px rgba(136, 136, 136, 0.5);
+}
+
+.plauku-tipai {
+  justify-content: space-evenly;
+}
+
+/* ------ MOKYMAI ------*/
+
+.container-fluid.mokymai {
+  background: url(images/horizontal.jpg);
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mokymai-hero {
+  align-items: center;
+}
+
+.mokymai-img {
+  background: url("images/moteris3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px 50px;
+  justify-content: space-around;
+}
+
+.mokymai-jums {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 50%;
+}
+
+.mano-komanda {
+  width: 30%;
+  margin-top: 70px;
+}
+
+.input-row {
+  margin-bottom: 20px;
+}
+
+.mokymai-hero {
+  padding-top: 150px;
+}
+
+.mokymai-btn {
+  background-color: black;
+  width: 50px;
+}
+
+a.mokymai-btn:link,
+a.mokymai-btn:visited {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  /* transform: scale(1.1); */
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+a.mokymai-btn:hover,
+a.mokymai-btn:active {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  /* transform: scale(1.1); */
+}
+
+/* ------/MOKYMAI/------ */
+
+/* ------TAPK PARTNERIU------ */
+
+.tapk-partneriu {
+  width: 850px;
+}
+
+.levander-img {
+  background: url("images/Levander.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 350px;
+  left: 0;
+  bottom: 0;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+/* .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+/* ------DUK------ */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+a.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+/* /------DUK------/ */
+
+/* ------Apie-mus------ */
+
+.apie-mus {
+  background-image: url("images/horizontal.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p.apie-text {
+  font-family: sans-serif;
+  font-size: 21px;
+}
