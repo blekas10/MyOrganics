@@ -1,6 +1,4 @@
 <?php include_once 'header.php' ?>
-
-
 <div class="hero-carousel">
   <div class="owl-carousel owl-theme">
     <div class="hero-image">
@@ -29,9 +27,6 @@
     </div>
   </div>
 </div>
-
-
-
 <div class="container mx-5">
   <div class="container">
     <div class="row">
@@ -227,6 +222,7 @@
           <p>$19.00</p>
         </div>
       </a>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nostrum dicta ratione quos, officia at facilis fuga laborum quaerat excepturi, ullam quod tempora laboriosam sit asperiores beatae? Asperiores rem aspernatur ducimus voluptate perspiciatis, vel incidunt neque dolorum ut facere, quas odio adipisci, provident animi enim quae dolores suscipit inventore hic. Incidunt, quam? Perferendis reiciendis ea magni ipsa, in tempora, sapiente, esse iusto aliquid voluptatibus atque nisi neque exercitationem? Necessitatibus dolores molestias esse magni, labore voluptatibus sint deleniti accusantium quas, porro vel illum, fugit saepe. Vel omnis provident maiores blanditiis! Minima quam, voluptatum ad maiores totam odit error? Nulla, natus consequatur!</p>
     </div>
     <div class="col-sm-3 products">
       <img class="card-img-top" src="assets/Moteris4.jpg" alt="Card image cap" />
