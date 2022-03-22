@@ -434,8 +434,27 @@ a.active,
 .panel {
   padding: 0 18px;
   background-color: white;
-  display: none;
+  max-height: 0;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: "▼"; /* Unicode character for "plus" sign (+) */
+  font-size: 15px;
+  color: #777;
+  float: left;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "▲"; /* Unicode character for "minus" sign (-) */
+}
+
+.container.duk {
+  margin-top: 100px;
+  margin-bottom: 130px;
+  width: 800px;
 }
 
 /* /------DUK------/ */
