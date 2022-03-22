@@ -27,28 +27,21 @@
     </div>
   </div>
 </div>
-<div class="container mx-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <div class="cruelty py-5">
-          <h3>CRUELTY FREE, ECO-FRIENDLY, ORGANIC HAIR PRODUCTS</h3>
-          <p>
-            Premium products created by hairdressers for hairdressers who
-            believe in a better future.
-          </p>
-          <p>
-            My.Organics is committed to sustainability and respect for
-            nature. Therefore, we also use eco-sustainable packaging
-            wherever possible for our 100% organic, eco-friendly and natural
-            hair products.
-          </p>
-        </div>
-        <div class="divider"></div>
-      </div>
+
+<div class="container text-center prisistatymas">
+  <div class="row">
+    <div class="col-sm 12 ">
+      <p class="mb-3">CRUELTY FREE, ECO-FRIENDLY, ORGANIC HAIR PRODUCTS</p>
+      <p>Premium products created by hairdressers for hairdressers who believe in a better future.</p>
+      <p>My.Organics is committed to sustainability and respect for nature. Therefore, we also use eco-sustainable packaging wherever possible for our 100% organic, eco-friendly and natural hair products.</p>
     </div>
   </div>
 </div>
+
+<div class="divider"></div>
+
+
+
 <div class="container justify-content-center p-5" style="width: 1200px; margin: auto">
   <div class="row">
     <div class="col-sm-5 py-5">
@@ -222,7 +215,7 @@
           <p>$19.00</p>
         </div>
       </a>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nostrum dicta ratione quos, officia at facilis fuga laborum quaerat excepturi, ullam quod tempora laboriosam sit asperiores beatae? Asperiores rem aspernatur ducimus voluptate perspiciatis, vel incidunt neque dolorum ut facere, quas odio adipisci, provident animi enim quae dolores suscipit inventore hic. Incidunt, quam? Perferendis reiciendis ea magni ipsa, in tempora, sapiente, esse iusto aliquid voluptatibus atque nisi neque exercitationem? Necessitatibus dolores molestias esse magni, labore voluptatibus sint deleniti accusantium quas, porro vel illum, fugit saepe. Vel omnis provident maiores blanditiis! Minima quam, voluptatum ad maiores totam odit error? Nulla, natus consequatur!</p>
+
     </div>
     <div class="col-sm-3 products">
       <img class="card-img-top" src="assets/Moteris4.jpg" alt="Card image cap" />
