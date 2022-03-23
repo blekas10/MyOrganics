@@ -1,53 +1,18 @@
 <?php include_once 'header.php' ?>
 
 <div class="container-fluid">
-  <div class="dazai-hero-img">
+  <div class="smoothing-hero-img">
   </div>
 </div>
 
 <div class="container dazai-prisistatymas py-5 text-center">
   <div class="row">
     <div class="col-lg-12">
-      <p class="mb-4 prisistatymas1">DISCOVER COLORGANICS</p>
-      <p class="prisistatymas2">Colorganics is the smart colour choice for salons and freelance hairdressers who strive to wow their eco aware clients with premium results.</p>
-      <p class="prisistatymas2">The inter-mixable range of permanent and semi-permanent shades and toners use nature’s finest active ingredients for consistent, damage-free results you and your clients will love.</p>
+      <p class="mb-4 prisistatymas1">THE MY.ORGANICS NATURAL KERATIN SMOOTHING TREATMENT</p>
+      <p class="prisistatymas2">My.Organics Restructuring Smoothing Lotion is free from
+        formaldehyde and nasty chemicals, but packed with antioxidants, including Vanilla essential oil and Aloe Vera extracts to regenerate, restructure and repair your clients’ hair.</p>
+      <p class="prisistatymas2">Salons say their clients love the smooth and glossy results, that last for up to 90 days, as well as the reassurance that it's free from harsh chemicals.</p>
     </div>
-  </div>
-</div>
-
-<div class="container justify-content-center p-5">
-  <div class="row">
-
-
-    <div class="col-lg-6 py-5">
-      <div class="container dazai-text ">
-        <h2 class="sustainable-products">
-          WHY CHOOSE MY.ORGANICS?
-        </h2>
-        <p>
-          61% of millennials say they would pay more for eco-friendly products*
-        </p>
-        <!-- <strong>7 High-Performing Care and Styling Ranges</strong> -->
-        <p>
-          Specially formulated ranges to solve all your clients’ hair and scalp complaints: Hydrating, Thickening, Purifying, Restructuring, After Colour, Resurrection and Keratin Lines.
-        </p>
-        <!-- <strong>70 Shade Certified Organic Colour Line</strong> -->
-        <p>
-          42% of consumers are looking for certification logos to help them choose organic**
-        </p>
-      </div>
-
-    </div>
-
-    <div class="col-lg-6">
-      <div class="image-wrapper ">
-        <div>
-          <img src="images/banish_grey_model_720x.jpg" class="dazai-img">
-        </div>
-
-      </div>
-    </div>
-
   </div>
 </div>
 
@@ -57,7 +22,7 @@
     <div class="col-lg-6">
       <div class="image-wrapper ">
         <div>
-          <img src="images\14_09_COLORGANICS_720x.jpg" class="dazai-img1">
+          <img src="images/MY.ORGANICS_keratine_line_720x.jpg" class="dazai-img1">
         </div>
 
       </div>
@@ -84,10 +49,6 @@
     </div>
 
   </div>
-</div>
-
-<div class="container text-center py-3 dazai-siulome">
-  <p>COLORGANICS SALONS ALSO LOVE</p>
 </div>
 
 <div class="container">

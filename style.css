@@ -553,3 +553,16 @@ p.apie-text {
 .kortele-dazai {
   margin-top: 170px;
 }
+
+/* /------Dazai------/ */
+
+/* ------Smoothining------ */
+
+.smoothing-hero-img {
+  background: url("images/banish_grey_model_720x.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
