@@ -483,18 +483,13 @@ p.apie-text {
 
 /* ------Dazai------ */
 
-.dazai-hero-image {
+.dazai-hero-img {
   background: url("images/moteris1.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 740px;
-  display: flex;
-  align-items: center;
-}
-
-.dazai-uppercase {
-  text-transform: uppercase;
 }
 
 .dazai-hero-text {
@@ -506,9 +501,55 @@ p.apie-text {
   width: 60%;
 }
 
-p.mb-4.dazai-prisistatymas {
+.prisistatymas1 {
+  font-size: 25px;
+  font-weight: 600;
 }
 
+.prisistatymas2 {
+  font-size: 25px;
+  font-weight: 200;
+}
 
-Test
-Test
+.dazai-img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .dazai-img {
+    width: 100%;
+  }
+}
+
+.dazai-text {
+  margin-top: 70px;
+}
+.dazai-text1 {
+  margin-top: 70px;
+}
+
+.dazai-img1 {
+  max-width: 100%;
+}
+
+.dazai-siulome {
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.btn-dazai {
+  color: #2e2e2e;
+  background-color: #ffffff;
+  border-color: #000000;
+  border-radius: 0;
+}
+
+.btn-dazai:hover,
+.btn-dazai:active {
+  background-color: #777;
+  border-color: #000;
+}
+
+.kortele-dazai {
+  margin-top: 170px;
+}
