@@ -41,36 +41,47 @@
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container pt-2 pb-5">
+        <form action="action_page.php">
+
+          <label for="fname">Vardas</label>
+          <input type="text" id="fname" name="firstname" placeholder="Jūsų vardas">
+
+          <label for="country">Užimamos pareigos </label>
+          <select id="country" name="country">
+            <option value="australia">Kirpėjas</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="lname">El.Pašto adresas</label>
+          <input type="text" id="lname" name="lastname" placeholder="El.pašto adresas">
+
+          <label for="lname">Tel. Numeris</label>
+          <input type="text" id="lname" name="lastname" placeholder="Tel. Numeris">
 
 
-<div class="container pt-2 pb-5">
-  <form action="action_page.php">
 
-    <label for="fname">Vardas</label>
-    <input type="text" id="fname" name="firstname" placeholder="Jūsų vardas">
+          <label for="subject">Jūsų žinutė</label>
+          <textarea id="subject" name="subject" placeholder="Parašykite kažką"></textarea>
 
-    <label for="country">Užimamos pareigos </label>
-    <select id="country" name="country">
-      <option value="australia">Kirpėjas</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+          <input type="submit" value="Submit">
 
-    <label for="lname">El.Pašto adresas</label>
-    <input type="text" id="lname" name="lastname" placeholder="El.pašto adresas">
+        </form>
+      </div>
+    </div>
 
-    <label for="lname">Tel. Numeris</label>
-    <input type="text" id="lname" name="lastname" placeholder="Tel. Numeris">
-
-
-
-    <label for="subject">Jūsų žinutė</label>
-    <textarea id="subject" name="subject" placeholder="Parašykite kažką"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
+    <div class="col-md-6 ">
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2295.8001670456997!2d23.97616491601212!3d54.87131996709395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e722ba2468b133%3A0x5ca3907ae7739102!2sVaidoto%20g.%201%2C%20Kaunas%2045387!5e0!3m2!1slt!2slt!4v1648116847894!5m2!1slt!2slt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
 </div>
+
+
 
 
 
