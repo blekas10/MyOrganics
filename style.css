@@ -51,8 +51,7 @@ header {
   height: 650px;
   right: 0;
   top: 0;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 6px 5px;
+  border-radius: 2px 2px;
 }
 
 .moteris-img-2 {
@@ -241,17 +240,15 @@ li.nav-item {
   font-weight: bold;
 }
 .moteris-container {
-  -webkit-box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 0 8px 6px -6px #0000004a;
   -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 18px 25px -6px rgba(136, 136, 136, 0.5);
-  border-radius: 50px 15px;
 }
 
 .moteris-container1 {
-  -webkit-box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 0 8px 6px -6px #0000004a;
   -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 18px 25px -6px rgba(136, 136, 136, 0.5);
-  border-radius: 15px 50px;
+  /* box-shadow: 0 18px 25px -6px rgba(136, 136, 136, 0.5);
+  border-radius: 15px 50px; */
 }
 
 .link-moteris-container {
@@ -452,17 +449,34 @@ a.active.accordion,
 /* ------Apie-mus------ */
 
 .apie-mus {
-  background-image: url("images/horizontal.jpg");
-  min-height: 500px;
+  background-image: url("images/Moteris4.jpg");
+  min-height: 650px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-p.apie-text {
-  font-family: sans-serif;
-  font-size: 21px;
+.apie-mus-hero-text {
+  padding-top: 230px;
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+p.text-center.apie-mus-hero-text-1 {
+  color: white;
+  font-size: 30px;
+}
+
+.col-sm-12.text-center.apie-text {
+  font-size: 25px;
+  max-width: 70%;
+  margin-top: 60px;
+}
+
+.apie-mus-img {
+  max-width: 120%;
 }
 
 /* /------Apie-mus------/ */

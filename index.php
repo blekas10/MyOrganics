@@ -192,14 +192,14 @@
 <div class="container py-5">
   <div class="row">
     <div class="col-sm-3 products">
-      <img class="card-img-top" src="assets/Moteris4.jpg" alt="Card image cap" />
+      <img class="card-img-top" src="images/moteris1.jpg" alt="Card image cap" />
       <div class="text-center pt-2">
         <p>ANGEL POTION 3 IN 1 LEAVE IN HAIR CREAM 100ML | MY.ORGANICS</p>
         <p>$19.00</p>
       </div>
     </div>
     <div class="col-sm-3 products">
-      <img class="card-img-top" src="assets/Moteris4.jpg" alt="Card image cap" />
+      <img class="card-img-top" src="images/moteris1.jpg" alt="Card image cap" />
       <div class="text-center pt-2">
         <p>ANGEL POTION 3 IN 1 LEAVE IN HAIR CREAM 100ML | MY.ORGANICS</p>
         <p>$19.00</p>
@@ -207,7 +207,7 @@
     </div>
     <div class="col-sm-3 products">
       <a href="#" class="index-products">
-        <img class="card-img-top" src="assets/Moteris4.jpg" alt="Card image cap" />
+        <img class="card-img-top" src="images/moteris1.jpg" alt="Card image cap" />
         <div class="text-center pt-2">
           <p>
             ANGEL POTION 3 IN 1 LEAVE IN HAIR CREAM 100ML | MY.ORGANICS
@@ -218,7 +218,7 @@
 
     </div>
     <div class="col-sm-3 products">
-      <img class="card-img-top" src="assets/Moteris4.jpg" alt="Card image cap" />
+      <img class="card-img-top" src="images/moteris1.jpg" alt="Card image cap" />
       <div class="text-center pt-2">
         <p>ANGEL POTION 3 IN 1 LEAVE IN HAIR CREAM 100ML | MY.ORGANICS</p>
         <p>$19.00</p>
